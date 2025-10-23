@@ -1,0 +1,5 @@
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\bin\Debug\DevUtil.Core.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\bin\Debug\DevUtil.Core.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\obj\Debug\DevUtil.Core.csprojResolveAssemblyReference.cache
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\obj\Debug\DevUtil.Core.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\obj\Debug\DevUtil.Core.pdb

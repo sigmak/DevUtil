@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="DevUtil.Plugins.WorkLog.WorkLogControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#1E1E1E">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- 상단 툴바 -->
+        <Border Grid.Row="0" Background="#2D2D30" Padding="10" BorderBrush="#3F3F46" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal">
+                <DatePicker Margin="0,0,10,0" Background="#3F3F46" BorderThickness="0"/>
+                <Button Content="오늘" Padding="10,5" Margin="0,0,10,0" 
+                        Background="#007ACC" Foreground="White" BorderThickness="0"/>
+                <Button Content="저장" Padding="10,5"
+                        Background="#0E639C" Foreground="White" BorderThickness="0"/>
+            </StackPanel>
+        </Border>
+        
+        <!-- 업무일지 입력 영역 -->
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+            
+            <!-- 제목 -->
+            <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                <TextBlock Text="업무 제목" Foreground="Gray" Margin="0,0,0,5"/>
+                <TextBox Background="#3F3F46" Foreground="White" 
+                         BorderThickness="0" Padding="8" FontSize="14"/>
+            </StackPanel>
+            
+            <!-- 업무 내용 -->
+            <StackPanel Grid.Row="1">
+                <TextBlock Text="업무 내용" Foreground="Gray" Margin="0,0,0,5"/>
+                <TextBox AcceptsReturn="True" 
+                         Background="#1E1E1E" Foreground="#D4D4D4" 
+                         BorderThickness="1" BorderBrush="#3F3F46"
+                         Padding="8" FontSize="13"
+                         VerticalScrollBarVisibility="Auto"
+                         TextWrapping="Wrap"/>
+            </StackPanel>
+            
+            <!-- 특이사항 -->
+            <StackPanel Grid.Row="2" Margin="0,10,0,0">
+                <TextBlock Text="특이사항 / 이슈" Foreground="Gray" Margin="0,0,0,5"/>
+            </StackPanel>
+            
+            <TextBox Grid.Row="3" AcceptsReturn="True" 
+                     Background="#1E1E1E" Foreground="#D4D4D4" 
+                     BorderThickness="1" BorderBrush="#3F3F46"
+                     Padding="8" FontSize="13"
+                     VerticalScrollBarVisibility="Auto"
+                     TextWrapping="Wrap"/>
+        </Grid>
+    </Grid>
+</UserControl>

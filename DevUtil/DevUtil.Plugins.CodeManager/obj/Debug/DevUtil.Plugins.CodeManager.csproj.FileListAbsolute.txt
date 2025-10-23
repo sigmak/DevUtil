@@ -1,0 +1,11 @@
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\bin\Debug\DevUtil.Plugins.CodeManager.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\bin\Debug\DevUtil.Plugins.CodeManager.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\bin\Debug\DevUtil.Core.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\bin\Debug\DevUtil.Core.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\obj\Debug\DevUtil.Plugins.CodeManager.csprojResolveAssemblyReference.cache
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\obj\Debug\CodeManagerControl.baml
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\obj\Debug\CodeManagerControl.g.cs
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\obj\Debug\DevUtil.Plugins.CodeManager_MarkupCompile.cache
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\obj\Debug\DevUtil.Plugins.CodeManager.g.resources
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\obj\Debug\DevUtil.Plugins.CodeManager.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.CodeManager\obj\Debug\DevUtil.Plugins.CodeManager.pdb

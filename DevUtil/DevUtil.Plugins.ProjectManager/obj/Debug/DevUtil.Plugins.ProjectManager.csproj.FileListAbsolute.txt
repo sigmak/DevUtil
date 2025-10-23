@@ -1,0 +1,11 @@
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\bin\Debug\DevUtil.Plugins.ProjectManager.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\bin\Debug\DevUtil.Plugins.ProjectManager.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\bin\Debug\DevUtil.Core.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\bin\Debug\DevUtil.Core.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\obj\Debug\DevUtil.Plugins.ProjectManager.csprojResolveAssemblyReference.cache
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\obj\Debug\ProjectManagerControl.baml
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\obj\Debug\ProjectManagerControl.g.cs
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\obj\Debug\DevUtil.Plugins.ProjectManager_MarkupCompile.cache
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\obj\Debug\DevUtil.Plugins.ProjectManager.g.resources
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\obj\Debug\DevUtil.Plugins.ProjectManager.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.ProjectManager\obj\Debug\DevUtil.Plugins.ProjectManager.pdb

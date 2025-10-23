@@ -1,0 +1,11 @@
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\bin\Debug\DevUtil.Plugins.WorkLog.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\bin\Debug\DevUtil.Plugins.WorkLog.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\bin\Debug\DevUtil.Core.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\bin\Debug\DevUtil.Core.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\obj\Debug\DevUtil.Plugins.WorkLog.csprojResolveAssemblyReference.cache
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\obj\Debug\WorkLogControl.baml
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\obj\Debug\WorkLogControl.g.cs
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\obj\Debug\DevUtil.Plugins.WorkLog_MarkupCompile.cache
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\obj\Debug\DevUtil.Plugins.WorkLog.g.resources
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\obj\Debug\DevUtil.Plugins.WorkLog.dll
+D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Plugins.WorkLog\obj\Debug\DevUtil.Plugins.WorkLog.pdb

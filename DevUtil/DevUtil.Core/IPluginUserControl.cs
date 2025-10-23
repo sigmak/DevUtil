@@ -1,0 +1,49 @@
+﻿/*
+ * SharpDevelop으로 작성되었습니다.
+ * 사용자: RYZEN3200G
+ * 날짜: 2025-10-23
+ * 시간: 오후 12:40
+ * 
+ * 이 템플리트를 변경하려면 [도구->옵션->코드 작성->표준 헤더 편집]을 이용하십시오.
+ */
+using System.Windows.Controls;
+//using System.Windows.Forms; // UserControl 네임스페이스 오류 해결용 : 참조 추가-GAC탭에서  System.Windows.Forms 를 선택해야됨.
+
+namespace DevUtil.Core
+{
+    /// <summary>
+    /// 플러그인 UserControl이 구현해야 하는 인터페이스
+    /// </summary>
+    public interface IPluginUserControl
+    {
+        /// <summary>
+        /// 플러그인 이름
+        /// </summary>
+        string PluginName { get; }
+
+        /// <summary>
+        /// 동적 타이틀용 2025.10.24 추가  
+        /// </summary>
+        string PluginTitle { get; set; }   
+        
+        /// <summary>
+        /// 플러그인 설명
+        /// </summary>
+        string Description { get; }
+        
+        /// <summary>
+        /// UserControl 인스턴스 반환
+        /// </summary>
+        UserControl GetControl();
+        
+        /// <summary>
+        /// 플러그인 초기화
+        /// </summary>
+        void Initialize();
+        
+        /// <summary>
+        /// 플러그인 정리
+        /// </summary>
+        void Cleanup();
+    }
+}
