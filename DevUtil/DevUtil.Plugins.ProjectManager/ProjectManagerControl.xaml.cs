@@ -45,10 +45,8 @@ namespace DevUtil.Plugins.ProjectManager
 	        Version version = Assembly.GetExecutingAssembly().GetName().Version;
 	        DateTime buildTime = File.GetLastWriteTime(Assembly.GetExecutingAssembly().Location);
 	        
-	        //PluginTitle = string.Format("{0} - [ Build : {1:yyyy-MM-dd HH:mm:ss} - Ver : {2} ]",
-	        //    PluginName, buildTime, version);
-   	        PluginTitle = string.Format("{0}-Ver {1}",
-	            PluginName, version);	        
+	        PluginTitle = string.Format("{0} - [ Build : {1:yyyy-MM-dd HH:mm:ss} - Ver : {2} ]",
+	            PluginName, buildTime, version);
 	    }        
         
 

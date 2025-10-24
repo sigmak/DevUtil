@@ -1,0 +1,82 @@
+// MainWindow.xaml.cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows;
+using System.Windows.Controls;
+
+public partial class MainWindow : Window
+{
+    public MainWindow()
+    {
+        InitializeComponent();
+        var menuGroups = MenuLoader.LoadFromDatabase();
+        LoadMenu(menuGroups);
+    }
+
+    private void LoadMenu(List<MenuGroup> groups)
+    {
+        MenuPanel.Children.Clear();
+
+        foreach (var group in groups)
+        {
+            var expander = new Expander
+            {
+                Header = group.GroupName,
+                Margin = new Thickness(5),
+                IsExpanded = true
+            };
+
+            var stack = new StackPanel();
+
+            foreach (var item in group.Items)
+            {
+                var btn = new Button
+                {
+                    Content = item.Name,
+                    Margin = new Thickness(5, 2, 5, 2),
+                    Tag = item.PluginType
+                };
+                btn.Click += MenuItem_Click;
+                stack.Children.Add(btn);
+            }
+
+            expander.Content = stack;
+            MenuPanel.Children.Add(expander);
+        }
+    }
+
+    private void MenuItem_Click(object sender, RoutedEventArgs e)
+    {
+        var btn = sender as Button;
+        if (btn == null) return;
+
+        var pluginTypeName = btn.Tag as string;
+        if (string.IsNullOrEmpty(pluginTypeName)) return;
+
+        var pluginType = Type.GetType(pluginTypeName);
+        if (pluginType == null)
+        {
+            MessageBox.Show($"플러그인 '{pluginTypeName}'을(를) 찾을 수 없습니다.");
+            return;
+        }
+
+        var plugin = Activator.CreateInstance(pluginType) as IUserPlugin;
+        if (plugin != null)
+        {
+            var content = plugin.CreatePage(); // UserControl 반환
+            OpenTab(plugin.PluginName, content);
+        }
+    }
+
+    private void OpenTab(string title, UserControl content)
+    {
+        var tab = new TabItem
+        {
+            Header = title,
+            Content = content
+        };
+        TabHost.Items.Add(tab);
+        TabHost.SelectedItem = tab;
+    }
+}

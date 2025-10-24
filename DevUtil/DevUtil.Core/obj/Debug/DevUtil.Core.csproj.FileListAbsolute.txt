@@ -3,3 +3,8 @@ D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\bin\Debug\DevUtil.Core.pdb
 D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\obj\Debug\DevUtil.Core.csprojResolveAssemblyReference.cache
 D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\obj\Debug\DevUtil.Core.dll
 D:\dev_works\CSharp_WPF_works\DevUtil\DevUtil.Core\obj\Debug\DevUtil.Core.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil-ver_0.0.1.0\DevUtil_src_2025-10-23-2\DevUtil.Core\bin\Debug\DevUtil.Core.dll
+D:\dev_works\CSharp_WPF_works\DevUtil-ver_0.0.1.0\DevUtil_src_2025-10-23-2\DevUtil.Core\bin\Debug\DevUtil.Core.pdb
+D:\dev_works\CSharp_WPF_works\DevUtil-ver_0.0.1.0\DevUtil_src_2025-10-23-2\DevUtil.Core\obj\Debug\DevUtil.Core.csprojResolveAssemblyReference.cache
+D:\dev_works\CSharp_WPF_works\DevUtil-ver_0.0.1.0\DevUtil_src_2025-10-23-2\DevUtil.Core\obj\Debug\DevUtil.Core.dll
+D:\dev_works\CSharp_WPF_works\DevUtil-ver_0.0.1.0\DevUtil_src_2025-10-23-2\DevUtil.Core\obj\Debug\DevUtil.Core.pdb
